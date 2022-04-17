@@ -1,0 +1,21 @@
+const rewire = require("rewire")
+const calc = rewire("../calc")
+const arrayAverage = calc.__get__("arrayAverage")
+
+//testrun
+describe("arrayAverage", () => {
+    test("0", () => {
+        arrayAverage(undefined)
+    })
+
+    test("1", () => {
+        arrayAverage([16, 16, 10, 64])
+    })
+
+    test("2", () => {
+        arrayAverage([16, 256, 10, 32])
+    })
+})
+
+
+

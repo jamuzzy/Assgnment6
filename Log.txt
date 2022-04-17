@@ -1,0 +1,49 @@
+
+[nodemon] starting `node backend/server.js server.js`
+unreasonably simple
+C:\Users\GODFREY MOTIANG\Desktop\CRUD-JS\server.js:9
+   var numbersCnt = ar.length;
+                    ^
+
+ReferenceError: ar is not defined
+    at arrayAverage (C:\Users\GODFREY MOTIANG\Desktop\CRUD-JS\server.js:9:21)
+    at Object.<anonymous> (C:\Users\GODFREY MOTIANG\Desktop\CRUD-JS\server.js:18:14)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node backend/server.js server.js`
+C:\Users\GODFREY MOTIANG\Desktop\CRUD-JS\server.js:3
+   va totalSum = 0;
+      ^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1032:15)
+    at Module._compile (node:internal/modules/cjs/loader:1067:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node backend/server.js server.js`
+C:\Users\GODFREY MOTIANG\Desktop\CRUD-JS\server.js:3
+   va totalSum = 0;
+      ^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1032:15)
+    at Module._compile (node:internal/modules/cjs/loader:1067:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+[nodemon] app crashed - waiting for file changes before starting...
